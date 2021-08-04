@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #46990f;
+    line-height: 1.6;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+#drink {
+    background-image: url(https://image.bnews.vn/MediaUpload/Org/2020/10/04/3clubofmozambique.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+h1 {
+    display: block;
+    font-size: 5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#drink .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #46990f;
+    border: #46990f 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#A {
+    padding: 20px;
+    background: #46990f;
+    color: #fff;
+    text-align: center;
+}
+#B {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+#C {
+    display: flex;
+}
+#C div {
+    padding: 20px;
+}
+#C .coca1, #C .coca3 {
+    background: #46990f;
+    color: #fff;
+}
+#C .coca2 {
+    background: #f9f9f9;
+}
